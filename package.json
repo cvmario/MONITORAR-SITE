@@ -1,0 +1,17 @@
+{
+  "name": "bot-scraper-anti-deteccao",
+  "version": "3.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "DEBUG_MODE=true node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4",
+    "playwright": "^1.40.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.7.0",
+    "firebase-admin": "^12.0.0"
+  }
+}
